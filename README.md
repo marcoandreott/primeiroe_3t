@@ -1,7 +1,7 @@
-#terceiro trimestre
+# terceiro trimestre
 
-##identificação
+## identificação
 marco antonio andreotti - nr 39
 
-##conteudo
+## conteudo
 HTML,css e javascript
