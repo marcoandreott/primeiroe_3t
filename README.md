@@ -1,7 +1,7 @@
-# terceiro trimestre
+# Terceiro Trimestre
 
-## identificação
-marco antonio andreotti - nr 39
+## Identificação
+Daniel Luigi - Nº 9
 
-## conteudo
-HTML,css e javascript
+## Conteúdo
+HTML, CSS e JavaScript
