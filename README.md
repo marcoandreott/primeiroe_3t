@@ -1,7 +1,7 @@
 # Terceiro Trimestre
 
 ## Identificação
-marco antonio - Nº 39
+Edson Kichie Mario Noguchi - Número 10
 
 ## Conteúdo
 HTML, CSS e JavaScript

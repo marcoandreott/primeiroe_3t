@@ -4,30 +4,82 @@ body {
 }
 
 .calculadora {
+    background: rgb(255, 244, 145);
+    width: 200px;
+    color: black;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 10px 10px rgba(216, 201, 71, 0.808);
+}
 
-background: rgb(109, 157, 230);
-width: 200px;
-color: rgb(0, 0, 0);
-padding: 15px;
+.calculadoraESG {
+    background: rgb(251, 237, 109);
+    width: 200px;
+    color: rgb(61, 61, 61);
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 10px 10px rgba(170, 156, 31, 0.808);
 }
-.calculadora input{
-    background: rgb(175, 143, 201);
-    color: rgb(0, 0, 0);
+
+.calculadora input {
+    background: rgba(212, 204, 204, 0.307);
+    color: rgba(0, 0, 0, 0.739);
+    border-radius: 10px;
+    padding: 8px;
 }
-#psTotal {
-background: rgb(47, 113, 175);
-padding: 10px;
-margin-bottom: 5px;
+
+.calculadoraESG input {
+    background: rgba(212, 204, 204, 0.307);
+    color: rgba(0, 0, 0, 0.739);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.calcF {
+    display: none;
+}
+
+#calcFin {
+    display: none;
+}
+
+#calcFin:checked + .calculadora .calcF {
+    display: block;
+}
+
+.calculadora input:focus {
+    background: white;
+    color: black;
 }
 
 #btnCalc {
-    background: rgb(170, 93, 224);
+    background: rgb(255, 196, 86);
     margin-top: 20px;
-    padding: 5px;
+    padding: 8px;
 }
 
 #btnCalc:hover {
-    background: rgb(156, 34, 180);
-    color: rgb(0, 0, 0);
+    background: orange;
+    color: white;
     cursor: pointer;
 }
+
+#psTotal {
+    background: rgb(243, 219, 0);
+    color: white;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.spmes {
+    width: 100%;
+    background: rgb(243, 219, 0);
+    lighting-color: orange;
+    border-radius: 20px;
+    border-style: dashed;
+    border-color: orange;
+    border-width: 3px;
+} 
